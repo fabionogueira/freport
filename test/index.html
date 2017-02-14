@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Report Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,user-scalable=no">
+        <style>
+            div{
+                box-sizing: border-box;
+            }
+            .toolbar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                position: absolute;
+                background:#03A9F4;
+                left: 4px;
+                right: 4px;
+                height: 40px;
+                top:0;
+                padding-left:10px;
+            }
+            .toolbar button{
+                width: 80px;
+                margin-right: 10px;
+            }
+            #report-container{
+                position: absolute;
+                top: 40px;
+                left: 4px;
+                right: 4px;
+                bottom: 4px;
+            }
+        </style>
+    </head>
+<body style="background:rgb(229, 229, 229)">
+    
+    <div class="toolbar">
+        <button>report 01</button>
+        <button>report 02</button>
+        <button onclick="report.print()">print</button>
+    </div>
+    <div id="report-container"></div>
+
+    <script src="../dist/index.js"></script>
+
+    <script src="report1.js"></script>
+    <script src="report2.js"></script>
+    
+    <script src="index.js"></script>
+</body>

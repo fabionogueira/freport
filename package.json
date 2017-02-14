@@ -1,0 +1,30 @@
+{
+  "name": "freport",
+  "version": "0.0.6",
+  "license": "ISC",
+  "module": "src/index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "description": "front-end javascript business reporting",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "business",
+    "javascript",
+    "report",
+    "browser",
+    "front-end"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "source-map-loader": "^0.1.6",
+    "ts-loader": "^2.0.0",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Fábio Nogueira",
+    "email": "fabio.bacabal@gmail.com"
+  }
+}
