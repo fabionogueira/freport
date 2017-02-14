@@ -1,6 +1,6 @@
 {
   "name": "freport",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "license": "ISC",
   "module": "src/index.js",
   "main": "dist/index.js",

@@ -5,18 +5,18 @@ import {FReport} from "./FReport";
 import {FElement} from "./FElement";
 import {FText} from "./FText";
 import {FImage} from "./FImage";
-//import {JsrRect} from "./jsr-rect";
-//import {JsrLine} from "./jsr-line";
-//import {JsrElipse} from "./jsr-elipse";
-//import {JsrBreak} from "./jsr-break";
+import {FRect} from "./FRect";
+import {FLine} from "./FLine";
+//import {FElipse} from "./FElipse";
+//import {FBreak} from "./FBreak";
 
 let FElements = {
     "Text"  : FText,
     "Image" : FImage,
-    //Line  = JsrLine,
-    //Elipse= JsrElipse,
-    //Image = JsrImage,
-    //Break = JsrBreak
+    "Line"  : FLine,
+    "Rect"  : FRect
+    //"Elipse": FElipse,
+    //"Break" : FBreak
 };
 
 export class FSection{

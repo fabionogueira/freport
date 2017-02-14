@@ -6,3 +6,5 @@ export * from './components/FReport';
 export * from './components/FSection';
 export * from './components/FText';
 export * from './components/FImage';
+export * from './components/FLine';
+export * from './components/FRect';
