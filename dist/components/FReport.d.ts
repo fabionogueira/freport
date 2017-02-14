@@ -23,7 +23,7 @@ export declare class FReport {
     constructor(container: HTMLElement);
     private dispatchEvent(eventName);
     private updateInternalVars();
-    definition(definition: any): void;
+    definition(definition: any): FReport;
     zoom(percent: number): void;
     getDocument(): Document;
     print(): void;

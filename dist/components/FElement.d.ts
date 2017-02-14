@@ -16,7 +16,7 @@ export declare class FElement {
     constructor(definition: any);
     init(report: IFReport, section: IFSection, definition: any): this;
     value(): any;
-    draw(row: any): string;
+    draw(row: [any]): string;
     getStyleAttribute(): string;
     onComplete(): void;
 }

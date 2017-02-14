@@ -11,7 +11,7 @@ export declare class FSection {
     constructor(report: FReport, definition: any, type: string);
     private dispatchEvent(eventName, data, vars);
     onComplete(): void;
-    draw(data: any): void;
+    draw(data: [any]): void;
     fitInPage(height: number): boolean;
     getHeight(): any;
 }

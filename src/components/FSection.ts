@@ -85,7 +85,7 @@ export class FSection{
         }
     }
 
-    draw(data:any){
+    draw(data:[any]){
         let i,y,s,vars,py,
             definition:any   = this._definition,
             type:string      = this._type,

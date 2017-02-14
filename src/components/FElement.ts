@@ -74,7 +74,7 @@ export class FElement{
                this._value;
     }
 
-    draw(row:any){
+    draw(row:[any]){
         return '<pre>draw not implemented</pre>';
     }
 

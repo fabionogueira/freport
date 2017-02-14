@@ -1,6 +1,6 @@
 {
   "name": "freport",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "ISC",
   "module": "src/index.js",
   "main": "dist/index.js",
@@ -26,5 +26,9 @@
   "author": {
     "name": "Fábio Nogueira",
     "email": "fabio.bacabal@gmail.com"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/fabionogueira/freport"
   }
 }

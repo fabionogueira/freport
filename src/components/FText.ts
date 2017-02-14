@@ -5,7 +5,7 @@ let idIndex = 0;
 export class FText extends FElement{
     private _ids:[number]=<any>[];
 
-    draw(data:any){
+    draw(data:[any]){
         let id='';
 
         if (this._definition.$fields['${#pages}']){
