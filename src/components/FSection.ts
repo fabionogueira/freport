@@ -53,7 +53,7 @@ export class FSection{
                 TFElement= (<any>FElements)[t];
 
                 if (TFElement){
-                    felement = new TFElement(j);
+                    felement = new TFElement();
                     felement.init(report, this, j);
 
                     if ((<any>felement).onComplete){

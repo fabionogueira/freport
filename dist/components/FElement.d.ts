@@ -12,11 +12,11 @@ export declare class FElement {
     private _value;
     protected _identifiers: any;
     protected _definition: any;
-    protected _style: any;
-    constructor(definition: any);
+    protected _style: string;
     init(report: IFReport, section: IFSection, definition: any): this;
     value(): any;
     draw(row: [any]): string;
+    getStyle(): any;
     getStyleAttribute(): string;
     onComplete(): void;
 }

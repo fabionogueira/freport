@@ -1,3 +1,7 @@
+var fs = require('fs');
+
+var WebpackOnBuildPlugin = require('on-build-webpack');
+
 module.exports = {
     entry:{
         "index": './src/index.ts'

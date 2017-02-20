@@ -16,6 +16,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "on-build-webpack": "^0.1.0",
     "source-map-loader": "^0.1.6",
     "ts-loader": "^2.0.0",
     "webpack-dev-server": "^2.3.0"
@@ -28,7 +29,7 @@
     "email": "fabio.bacabal@gmail.com"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/fabionogueira/freport"
+    "type": "git",
+    "url": "https://github.com/fabionogueira/freport"
   }
 }

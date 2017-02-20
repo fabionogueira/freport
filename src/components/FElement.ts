@@ -17,10 +17,7 @@ export class FElement{
     
     protected _identifiers:any;
     protected _definition:any;
-    protected _style:any;
-
-    constructor(definition:any){
-    }
+    protected _style:string;
 
     init (report:IFReport, section:IFSection, definition:any){
         let a, k:string, i:number, fn:Function, style:string, code='';        
@@ -76,6 +73,18 @@ export class FElement{
 
     draw(row:[any]){
         return '<pre>draw not implemented</pre>';
+    }
+
+    getStyle(){
+        let o:any = {}, 
+            a:Array<string> = this._style.split(';');
+
+        a.forEach((item:string)=>{
+            let p = item.split(':');
+            o[p[0]] = p[1];
+        });
+
+        return o;
     }
 
     getStyleAttribute(){
